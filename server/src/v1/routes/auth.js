@@ -8,6 +8,8 @@ const validation = require("../handlers/validation");
 const userController = require("../controllers/user");
 const tokenHandler = require("../handlers/tokenHandler");
 
+//http://localhost:5000/api/v1/auth/register
+
 //ユーザー新規登録API
 router.post(
   "/register",
